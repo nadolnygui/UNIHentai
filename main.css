@@ -81,6 +81,34 @@ header nav li a:hover {
     transform: scale(1.2);
 }
 
+ul.abc {
+    width: 100%;
+    background: #de5b73;
+    white-space: nowrap;
+    overflow: auto;
+    text-align: center;
+}
+
+ul.abc li {
+    display: inline-block;
+    padding: 15px 2px;
+}
+
+ul.abc li:first-child>a {
+    margin-left: 0;
+}
+ul.abc li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul.abc li a {
+    padding: 10px;
+    margin: 5px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
 section {
     padding: 20px 0;
     text-align: center;
