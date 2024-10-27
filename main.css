@@ -93,6 +93,7 @@ ul.abc {
 ul.abc li {
     display: inline-block;
     padding: 15px 2px;
+    align-items: center;
 }
 
 ul.abc li:first-child>a {
@@ -101,6 +102,7 @@ ul.abc li:first-child>a {
 ul.abc li a {
     color: #fff;
     text-decoration: none;
+    align-items: center;
 }
 
 ul.abc li a {
@@ -109,6 +111,11 @@ ul.abc li a {
     font-size: 14px;
     border-radius: 3px;
 }
+
+ul.abc li a:hover {
+    color: black;
+}
+
 
 section {
     padding: 20px 0;
